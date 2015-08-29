@@ -14,6 +14,8 @@
 		86D362781B912C910094F20D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D362771B912C910094F20D /* Images.xcassets */; };
 		86D3627B1B912C910094F20D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D362791B912C910094F20D /* LaunchScreen.xib */; };
 		86D362871B912C910094F20D /* PayWhatYouWantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D362861B912C910094F20D /* PayWhatYouWantTests.m */; };
+		86D362921B912CB80094F20D /* PayWhatYouWantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D362911B912CB70094F20D /* PayWhatYouWantViewController.m */; };
+		86D362951B912CC60094F20D /* PayWhatYouWantManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D362941B912CC60094F20D /* PayWhatYouWantManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		86D362801B912C910094F20D /* PayWhatYouWantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayWhatYouWantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D362851B912C910094F20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86D362861B912C910094F20D /* PayWhatYouWantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayWhatYouWantTests.m; sourceTree = "<group>"; };
+		86D362901B912CB70094F20D /* PayWhatYouWantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayWhatYouWantViewController.h; sourceTree = "<group>"; };
+		86D362911B912CB70094F20D /* PayWhatYouWantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayWhatYouWantViewController.m; sourceTree = "<group>"; };
+		86D362931B912CC60094F20D /* PayWhatYouWantManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayWhatYouWantManager.h; sourceTree = "<group>"; };
+		86D362941B912CC60094F20D /* PayWhatYouWantManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayWhatYouWantManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				86D3626F1B912C910094F20D /* AppDelegate.m */,
 				86D362711B912C910094F20D /* ViewController.h */,
 				86D362721B912C910094F20D /* ViewController.m */,
+				86D362931B912CC60094F20D /* PayWhatYouWantManager.h */,
+				86D362941B912CC60094F20D /* PayWhatYouWantManager.m */,
+				86D362901B912CB70094F20D /* PayWhatYouWantViewController.h */,
+				86D362911B912CB70094F20D /* PayWhatYouWantViewController.m */,
 				86D362741B912C910094F20D /* Main.storyboard */,
 				86D362771B912C910094F20D /* Images.xcassets */,
 				86D362791B912C910094F20D /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86D362731B912C910094F20D /* ViewController.m in Sources */,
+				86D362921B912CB80094F20D /* PayWhatYouWantViewController.m in Sources */,
+				86D362951B912CC60094F20D /* PayWhatYouWantManager.m in Sources */,
 				86D362701B912C910094F20D /* AppDelegate.m in Sources */,
 				86D3626D1B912C910094F20D /* main.m in Sources */,
 			);

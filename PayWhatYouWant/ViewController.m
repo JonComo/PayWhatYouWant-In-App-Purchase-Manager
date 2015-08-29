@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "PayWhatYouWantViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -17,11 +19,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor greenColor];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    PayWhatYouWantViewController *payWhatYouWantVC = [[PayWhatYouWantViewController alloc] initWithMessages:@[@"Every user pays what they want", @"How much would you like to pay?"] payment:^(BOOL madePayment, NSNumber *amount) {
+        
+    }];
+    
+    [self presentViewController:payWhatYouWantVC animated:YES completion:nil];
 }
 
 @end
